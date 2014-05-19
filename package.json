@@ -1,0 +1,29 @@
+{
+  "name": "nodeJS-HTTP-Server",
+  "version": "0.0.1",
+  "description": "Simple http-Server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "node",
+    "nodeJS",
+    "http-server",
+    "js",
+    "java",
+    "script"
+  ],
+  "engines":{ "node" : ">=0.10.xx" },
+  "author": "Sebastian Bernard",
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Übung 1</title>
+    <link rel="stylesheet" href="css/app.css">
+    <meta name="author" content="Sebastian Bernard">
+</head>
+<body>
+<div id="vidArea">
+
+<script src ="js/app.js"></script>
+<h1>Video Player</h1>
+    <video class="normalScreen">
+		<source src="http://cdn-1.metacdn.net/jumipqxo/50OUEm/20120318032304_trailer1080p_ogg-MEDIUM.webm" type="video/webm">
+        <source src="http://cdn-1.metacdn.net/jumipqxo/5UP73g/20120318032304_trailer1080p_ogg-MEDIUM.mp4" type="video/mp4">
+        <source src="http://cdn-1.metacdn.net/jumipqxo/5I9Wdx/20120318032304_trailer1080p_ogg-MEDIUM.ogv" type="video/ogv">
+    </video>
+    <div class="controls" >
+        <input type="button" id="playButton" class="button" value="Play/Pause"/>
+        <input type="button" id="stopButton" class="button" value="Stop"/>
+        <input class="slider" type="range" min="0" max="1" value="0">
+        <input class = "videoTime" type="text" disabled value="00:00" />
+        <input type="button" id="Fullscreen" class="button" value="Fullscreen"/>
+    </div>
+
+
+</div>
+</body>
+</html>
