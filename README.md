@@ -11,15 +11,16 @@ To build this example you will need to install the following  node framework:
 ## Installation
 Then you can download this repository with
 
-    git clone https://github.com/mattyod/matic-very-simple-example.git
+    git clone https://github.com/osym49/nodeJS-Server.git
 
-## Building the example docs
-Then simply navigate into the newly cloned example folder and run:
+## Starting the Server
+Start your terminal/console and navigate to your repository.
+Type the following command into your terminal/console to start the server:
+    *node server.js*
 
-    matic
+The server should start and listen for incoming connections.
+Open your fav browser and navigate to *http://localhost:port* (Default is 8080)
 
-You should now have a new folder called 'web' within the sample project. Within this should be a file called very-simple-example.html, open this with a browser and view the generated documentation.
+##Changing the Port the server listens on
 
-Please note this particular example is built to work as a simple local flat file system and so paths are not set as they would be if files were hosted on a server. That means you can just double click the generated HTML file and view it in your default browser.
-
-[An example of the output](http://mattyod.github.com/matic-very-simple-example/).
+You can change the port the server listens on by opening the server.js file and edit **var port = 8080**
